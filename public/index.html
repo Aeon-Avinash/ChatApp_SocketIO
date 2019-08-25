@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Joinin - Chat App</title>
+    <link rel="icon" href="/img/favicon.png" />
+    <link rel="stylesheet" href="/css/styles.min.css" />
+  </head>
+  <body>
+    <div class="centered-form">
+      <div class="centered-form__box">
+        <h1>Join</h1>
+        <form id="joinForm" action="/chat.html">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Display Name"
+            required
+          />
+          <label for="message">Room</label>
+          <input
+            type="text"
+            name="room"
+            id="room"
+            placeholder="Room"
+            required
+          />
+          <button id="joinBtn">Join Chatroom</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
